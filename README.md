@@ -20,16 +20,18 @@ DRIVER OR AS A COMMUNICATIONS DEVICE
 Files
 ------
 
-*phone_packages/*	- directory with pre-assembeled and tested packages
+**phone_packages/**	- directory with pre-assembeled and tested packages
 			  for specific phones along with an ADB install script
 			  tested.
-*bash_completion/*	- directory with bash completion scripts
-*binaries/*		- directory with staticly compiled binaries for all
+
+**bash_completion/**	- directory with bash completion scripts
+
+**binaries/**		- directory with staticly compiled binaries for all
 			  needed tools
-*libraries/*		- precompiled libraries needed for capture
+**libraries/**		- precompiled libraries needed for capture
 
 
-*wifi_capture.sh* - capture packets with tcpdump. subcommands are:
+**wifi_capture.sh** - capture packets with tcpdump. subcommands are:
 
 * ap_beacon	- captures 802.11 base station beacons
 * ap_handshake	- captures 802.11 WPA/WPA2 handshakes
@@ -42,7 +44,7 @@ Files
 * kill		- stop capture, write to files, reload android API for files,
 		  and exit
   
-*wifi_attack.sh* - run various 802.11 Wireless attacks. Front end for various
+**wifi_attack.sh** - run various 802.11 Wireless attacks. Front end for various
 tools. Subcommands are:
 
 * flood_auth	- Flood auth requests. If a parameter  is given it is assumed
@@ -77,7 +79,7 @@ for custom actions with variables.
 
 https://github.com/chrisk44/Hijacker
 
-*hijacker_actions/* - directory with actions for using these scripts in the app
+**hijacker_actions/** - directory with actions for using these scripts in the app
 
 Connectbot
 ----------
@@ -85,6 +87,6 @@ Connectbot is an ssh and local terminal app that allows limited scripting and
 automation.
 https://github.com/connectbot/connectbot
 
-*connectbot/* - directory with a connectbot connection database preconfigured
+**connectbot/** - directory with a connectbot connection database preconfigured
 to run our scripts on local terminal.
 
