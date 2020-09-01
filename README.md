@@ -31,7 +31,8 @@ Files
 **libraries/**		- precompiled libraries needed for capture
 
 
-**wifi_capture.sh** - capture packets with tcpdump. subcommands are:
+**wifi_capture.sh** - capture packets with tcpdump. files are saved to Downloads/
+directory in Android. Named and datestamped subcommands are:
 
 * ap_beacon	- captures 802.11 base station beacons
 * ap_handshake	- captures 802.11 WPA/WPA2 handshakes
@@ -52,10 +53,8 @@ tools. Subcommands are:
 * confuse_wids	- Confuse a WIDS system. Needs an SSID as a parameter.(MDK3)
 * tkip_shutdown	- Perform the "Michael Shutdown" exploit against a target AP.
 		  AP must be using TKIP encryption. Needs an AP MAC address as a
-		  second parameter.(MDK3)
-		  
-		  you can use "tkip_shutdown qos <MAC>" to use
-		  the TKIP QoS exploit in conjunction.(MDK3)
+		  second parameter.(MDK3) You can use "tkip_shutdown qos <MAC>"
+		  to use the TKIP QoS exploit in conjunction.(MDK3)
 * decloak	- Attempt to decloak an access point(get the SSID) that is
 		  hidden. saves file to Download/ (MDK3)
 * deauth	- De-auth clients from a specified AP. You must specify the MAC
