@@ -171,7 +171,7 @@ main() {
   nexutil -p1
 
   local -i cap_file_i=0
-  while [ -f $"${save_loc}/${cap_file}" ];do
+  while [ -f "${save_loc}/${cap_file}" ];do
     cap_file="${capfile_base}_${date_stamp}_${cap_file_i}.pcap"
     cap_file_i+=1
   done
