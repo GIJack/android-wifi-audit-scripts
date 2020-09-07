@@ -14,7 +14,7 @@ Best support is the Google Nexus 5, the Nexus 6P. Nexus 5 has the best support
 combine with the smallest size, best ergonomics and lightest weight is the
 most portable.
 
-WARNING - THESE CHIPSETS HAVE A KNOWN EXPLOIT IN THEM. DON'T USE AS A DAILY
+**WARNING** - THESE CHIPSETS HAVE A KNOWN EXPLOIT IN THEM. DON'T USE AS A DAILY
 DRIVER OR AS A COMMUNICATIONS DEVICE
 
 Files
@@ -28,6 +28,7 @@ Files
 
 **binaries/**		- directory with staticly compiled binaries for all
 			  needed tools
+
 **libraries/**		- precompiled libraries needed for capture
 
 
