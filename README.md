@@ -32,10 +32,12 @@ Files
 
 
 **wifi_capture.sh** - capture packets with tcpdump. files are saved to Downloads/
-directory in Android. Named and datestamped subcommands are:
+directory in Android, named and datestamped.
 
-* ap_beacon	- captures 802.11 base station beacons
-* ap_handshake	- captures 802.11 WPA/WPA2 handshakes
+subcommands are:
+
+* ap_beacon	- captures 802.11 base station beacons, optionally specify MAC
+* ap_handshake	- captures 802.11 WPA/WPA2 handshakes, optionally specify MAC
 * all_by_mac	- captures all frames associated with MAC address specified
 * all_by_name	- captures all frames associated with ESSID name
 * custom	- use raw tcpdump syntax
