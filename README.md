@@ -75,10 +75,10 @@ tools. Subcommands are:
 
 hijacker_actions
 ------------------
+Hijacker is a GUI front end for nexmon/aircrack: https://github.com/chrisk44/Hijacker
+
 Saved actions for the "Hijacker" app for android. needs Nexmon and root. Allows
 for custom actions with variables.
-
-https://github.com/chrisk44/Hijacker
 
 **hijacker_actions/** - directory with actions for using these scripts in the app
 
