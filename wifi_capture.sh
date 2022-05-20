@@ -178,7 +178,7 @@ main() {
 
   case ${tool} in
    tcpdump)
-    tcpdump -i ${iface} ${tool_options} -w "${save_loc}/${cap_file}" &
+    tcpdump -i ${iface} ${tool_options} ${tcpdump_options} -w "${save_loc}/${cap_file}" &
     pid=$!
     ;;
    airodump)
